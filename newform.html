@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        border: 3px solid black;
+        margin-top: 52px;
+        border-radius: 5px;
+        position: relative;
+        display: none;
+      }
+      #submit {
+        color: white;
+        position: relative;
+        top: 14px;
+        left: 140px;
+        width: 150px;
+        height: 40px;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: green;
+        border: 2px solid greenyellow;
+        border-radius: 5px;
+      }
+      label {
+        position: relative;
+        top: 25px;
+        left: 30px;
+      }
+
+      input {
+        height: 30px;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 25px;
+        border-radius: 10px;
+        outline: none;
+      }
+      #btn {
+        position: relative;
+        left: 230px;
+        top: 50px;
+        background-color: #662d66;
+        padding: 7px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: bold;
+      }
+      body {
+        width: 400px;
+        margin: 60px auto;
+      }
+
+      .btn {
+        position: relative;
+        right: 175px;
+        top: 50px;
+        background-color: #662d66;
+        padding: 7px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: bold;
+      }
+      #showPassword {
+        color: red;
+        background-color: black;
+        width: 80px;
+        position: absolute;
+        left: 287px;
+        bottom: 59px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">Click here to Login</button>
+    <button class="btn">Click here to Signin</button>
+
+    <div id="container">
+      <form action="">
+        <!-- <select name="" id="">
+          <option value="">Dashborad</option>
+          <option value="">Profile</option>
+          <option value="">Customer Service</option>
+          <option value="">Order</option>
+          <option value="">About</option>
+        </select> -->
+        <label for="">Matric Number</label>
+        <br />
+        <input type="text" name="" id="show" />
+        <br />
+        <br />
+        <label for="">Password</label>
+        <br /><br />
+        <input type="password" name="" id="passwordInput" />
+        <input type="button" value="Show" id="showPassword" />
+
+        <button id="submit" type="button">Login</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="./newform.js"></script>
+  </body>
+</html>
